@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
+// Importar HttpClientModule
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -10,7 +10,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule, // cargamos el módulo en el array de imports
   ],
   providers: [],
   bootstrap: [AppComponent]
