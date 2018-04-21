@@ -6,12 +6,37 @@
 }
 
 .white-font {
-  color : #fff;
+  color: #fff;
+}
+
+.deck-container {
+  /* position: relative; */
 }
 
 .li-style {
   list-style: none;
 }
+
 .cover {
- background-color: black;
+  /* background-color: black; */
+  /* position: absolute; */
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  max-width: 225px;
+}
+
+.cover:hover {
+  transform: rotateY(180deg);
+}
+
+.back-card {
+  max-width: 225px;
+  /* position: absolute; */
+  backface-visibility: hidden;
+}
+
+.front-card {
+  /* position: absolute; */
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
 }
