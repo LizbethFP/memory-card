@@ -25,9 +25,9 @@
   max-width: 225px;
 }
 
-.cover:hover {
+/* .cover:hover {
   transform: rotateY(180deg);
-}
+} */
 
 .back-card {
   max-width: 225px;
@@ -37,6 +37,6 @@
 
 .front-card {
   /* position: absolute; */
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
+  /* backface-visibility: hidden;
+  transform: rotateY(180deg); */
 }

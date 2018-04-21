@@ -22,10 +22,12 @@
     <ul class="d-flex flex-row flex-wrap justify-content-around">
       <li *ngFor="let card of cards" class="li-style cover m-4 p-1">
 
-        <img src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-tangent-back-1_1024x1024.png?v=1474345861"
+        <img (click)="toggleCards()" *ngIf="hideCard" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-tangent-back-1_1024x1024.png?v=1474345861"
           alt="back-card" class="back-card">
 
-        <img src={{card}} alt={{card}} class="front-card">
+        <img (click)="toggleCardsBack()" *ngIf="showCard" src={{card}} alt={{card}} class="front-card">
+
+
 
       </li>
     </ul>
