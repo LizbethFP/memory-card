@@ -1,8 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div>
-  <h1 class="text-center">
+<div class="casino-green p-1">
+  <h1 class="text-center white-font">
+
     Welcome to {{ title }}!
   </h1>
+
+  <div id="game-info" class="d-flex flex-row flex-wrap justify-content-around mt-5">
+
+    <p class="text-uppercase white-font">turns:
+      <span class="turns"></span>
+    </p>
+    <p class="white-font">$
+      <span class="currency"></span>
+    </p>
+    <p class="text-uppercase white-font">time:
+      <span class="time"></span>
+    </p>
+  </div>
 
   <ul class="d-flex flex-row flex-wrap justify-content-around">
     <li *ngFor="let card of cards" class="li-style cover m-4 p-1">
