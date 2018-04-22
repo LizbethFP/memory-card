@@ -20,7 +20,7 @@ import { NgArrayPipesModule } from 'ngx-pipes';
     // DeckModule,
     HttpClientModule, // cargamos el módulo en el array de imports
     NgArrayPipesModule // cargamos el módulo de shuffle en array
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
