@@ -1,6 +1,6 @@
 # MemoryCards
 
-Crear un juego de memoria de cartas con Angular 5.
+Crear un juego de memoria de cartas con Angular 5 y Bootstrap 4 con vista responsive.
 
 - Vista Desktop
 
