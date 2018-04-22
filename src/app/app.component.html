@@ -25,7 +25,7 @@
 
   <div class="deck-container">
     <ul class="no-paddings d-flex flex-row flex-wrap justify-content-around">
-      <li *ngFor="let card of cards" class="li-style cover m-4 p-1">
+      <li *ngFor="let card of cards | shuffle" class="li-style cover m-4 p-1">
 
         <img (click)="toggleCards()" *ngIf="hideCard" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-tangent-back-1_1024x1024.png?v=1474345861"
           alt="back-card" class="back-card">
