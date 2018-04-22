@@ -1,25 +1,30 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="casino-green p-1">
-  <h1 class="text-center white-font">
-
+  <h1 class="text-center white-font font-weight-bold my-4">
     Welcome to {{ title }}!
   </h1>
 
-  <div id="game-info" class="d-flex flex-row flex-wrap justify-content-around mt-5">
+  <div id="game-info-container" class="d-flex flex-row flex-wrap justify-content-around mt-5 mb-3">
 
-    <p class="text-uppercase white-font">turns:
-      <span class="turns"></span>
-    </p>
-    <p class="white-font">$
-      <span class="currency"></span>
-    </p>
-    <p class="text-uppercase white-font">time:
-      <span class="time"></span>
-    </p>
+    <div class="info-box-shadow border-radious p-4">
+      <p class="text-uppercase white-font">turns:
+        <span class="turns">7</span>
+      </p>
+    </div>
+    <div class="info-box-shadow border-radious p-4">
+      <p class="white-font">$
+        <span class="currency">300</span>
+      </p>
+    </div>
+    <div class="info-box-shadow border-radious p-4">
+      <p class="text-uppercase white-font">time:
+        <span class="time">475</span>
+      </p>
+    </div>
   </div>
 
   <div class="deck-container">
-    <ul class="d-flex flex-row flex-wrap justify-content-around">
+    <ul class="no-paddings d-flex flex-row flex-wrap justify-content-around">
       <li *ngFor="let card of cards" class="li-style cover m-4 p-1">
 
         <img (click)="toggleCards()" *ngIf="hideCard" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-tangent-back-1_1024x1024.png?v=1474345861"
@@ -29,7 +34,6 @@
 
       </li>
     </ul>
-
   </div>
 
 </div>

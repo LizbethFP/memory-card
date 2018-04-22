@@ -82,7 +82,7 @@ export class AppComponent implements OnInit {
     // this.hideCard = false;
     this.showCard = !this.showCard;
     this.hideCard = !this.hideCard;
-    console.log('toggleCardsBack Works');    
+    console.log('toggleCardsBack Works');   
   }
 
 }

@@ -1,7 +1,4 @@
 .casino-green {
-  /* background-color: #005f25; */
-  /* background: radial-gradient(ellipse at center, #003816 0%, #008080 100%); */
-  /* w3c */
   background-image: radial-gradient(circle, #42630e, #005f25, #1d3a0a, #3a4104, #000000);
 }
 
@@ -9,8 +6,26 @@
   color: #fff;
 }
 
+.info-box-shadow {
+  -webkit-box-shadow: inset 1px 0px 54px 9px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: inset 1px 0px 54px 9px rgba(0, 0, 0, 0.36);
+  box-shadow: inset 1px 0px 54px 9px rgba(0, 0, 0, 0.36);
+}
+
+.info-box-shadow p {
+  margin-bottom: 0;
+}
+
+.border-radious {
+ border-radius: 1rem;
+}
+
 .deck-container {
   /* position: relative; */
+}
+
+.no-paddings {
+ padding: 0;
 }
 
 .li-style {
@@ -30,9 +45,9 @@
 } */
 
 .back-card {
+  backface-visibility: hidden;
   max-width: 225px;
   /* position: absolute; */
-  backface-visibility: hidden;
 }
 
 .front-card {
