@@ -1,27 +1,27 @@
 # MemoryCards
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+Crear un juego de memoria de cartas con Angular 5.
 
-## Development server
+- Vista Desktop
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![image](https://user-images.githubusercontent.com/32282183/39089970-ee040d84-4597-11e8-91c9-2c1c91e3c986.png)
 
-## Code scaffolding
+![image](https://user-images.githubusercontent.com/32282183/39090023-297cfc1c-4599-11e8-91ab-9a79020c4f81.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Vista Tablet
 
-## Build
+![image](https://user-images.githubusercontent.com/32282183/39090031-4e542920-4599-11e8-88be-9e131f62efcb.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+![image](https://user-images.githubusercontent.com/32282183/39090035-5ca91850-4599-11e8-8c02-7530905fce67.png)
 
-## Running unit tests
+## Desarrollado para 
+Emma - Oechsle
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Requisitos:
+- Mostrar 8 cartas sobre la mesa
+- Las cartas siempre tienen pareja, ningún queda sola.
+- Las cartas cargan aleatoriamente, tanto el tipo y número como el orden sobre la mesa
+- Si encontramos un par, las cartas desaparecerán en su mismo sitio sin moverse las demás
+- Solo son pares las cartas del mismo número y tipo/palo
+- Si se encontraron todos los pares mostrar un mensaje de juego terminado.
+- Eres libre de agregar detalles al juego si deseas
