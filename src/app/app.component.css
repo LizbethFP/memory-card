@@ -6,6 +6,10 @@
   color: #fff;
 }
 
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
 .deck-container {
   /* position: relative; */
 }
