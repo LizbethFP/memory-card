@@ -1,0 +1,17 @@
+.white-font {
+  color: #fff;
+}
+
+.info-box-shadow {
+  -webkit-box-shadow: inset 1px 0px 54px 9px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: inset 1px 0px 54px 9px rgba(0, 0, 0, 0.36);
+  box-shadow: inset 1px 0px 54px 9px rgba(0, 0, 0, 0.36);
+}
+
+.info-box-shadow p {
+  margin-bottom: 0;
+}
+
+.border-radious {
+  border-radius: 1rem;
+}
