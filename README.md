@@ -1,6 +1,6 @@
 # MemoryCards
 
-Crear un juego de memoria de cartas con Angular 5 y Bootstrap 4 con vista responsive.
+Crear un juego de memoria de cartas con Angular 5 y Bootstrap 4 con vista responsive. Desplegado en Firebase.
 
 - Vista Desktop
 
@@ -13,6 +13,11 @@ Crear un juego de memoria de cartas con Angular 5 y Bootstrap 4 con vista respon
 ![image](https://user-images.githubusercontent.com/32282183/39090031-4e542920-4599-11e8-88be-9e131f62efcb.png)
 
 ![image](https://user-images.githubusercontent.com/32282183/39090035-5ca91850-4599-11e8-8c02-7530905fce67.png)
+
+- Desplegado en firebase
+
+![image](https://user-images.githubusercontent.com/32282183/39106760-8615f74a-4683-11e8-85b1-42c29c1082aa.png)
+
 
 ## Desarrollado para 
 Emma - Oechsle
